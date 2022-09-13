@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html>
 
 <head>
 </head>
 
 <body>
-    <h1>Íóìåðîâàííûé ñïèñîê</h1>
+    <h1>Нумерованный список</h1>
 
     <ol>
-        <li><a href="http://example.com/">Ãëàâíàÿ ñòðàíèöà exapmle.com</a></li>
-        <li><a href="https://example.com/">Ãëàâíàÿ ñòðàíèöà exapmle.com â ïðîòîêîëå https</a></li>
-        <li><a href="ftp://example.com/1.txt">Ftp áåç àâòîðèçàöèè </a></li>
-        <li><a href="ftp://login:parol@example.com/1.txt">Ftp ñ àâòîðèçàöèåé </a></li>
-        <li><a href="http://example.com/#about"> Ññûëêà íà ôðàãìåíò ñòðàíèöû íåêîòîðîãî ñàéòà</a></li>
-        <li><a href="#forma"> Ññûëêà íà ôðàãìåíò òåêóùåé ñòðàíèöû</a></li>
-        <li><a href="http://exapmple.com?parametr1&parametr2">Cñûëêà ñ äâóìÿ ïàðàìåòðàìè</a></li>
-        <li></li>
+        <li><a href="http://example.com/">Главная страница exapmle.com</a></li>
+        <li><a href="https://example.com/">Главная страница exapmle.com в протоколе https</a></li>
+        <li><a href="ftp://example.com/1.txt">Ftp без авторизации </a></li>
+        <li><a href="ftp://login:parol@example.com/1.txt">Ftp с авторизацией </a></li>
+        <li><a href="http://example.com/#about"> Ссылка на фрагмент страницы некоторого сайта</a></li>
+        <li><a href="#forma"> Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="http://exapmple.com?parametr1&parametr2">Cсылка с двумя параметрами</a></li>
+        <li>список ссылок основной навигации сайта с подписями title
+  	<ul>
+  		<li><a href="index.html" title="главная">главная</a></li>
+  		<li><a href="contacts.html" title="контакты">контакты</a></li>
+  		<li><a href="about.html" title="about">about</a></li>
+  	</ul>
+        </li>
         <li><a> http://example.com </a></li>
-        <li><a href="">Ññûëêà ñ ïóñòûì href</a></li>
-        <li><nofollow><a href="http://example.com/" rel="nofollow">Ññûëêà, ïî êîòîðîé çàïðåùåí ïåðåõîä ïîèñêîâèêàìè</a></li>
-        <li><noindex><a href="http://example.com/">Ññûëêà, çàïðåùåííàÿ äëÿ èíäåêñàöèè ïîèñêîâèêàìè</a></noindex></li>
-        <li>Ýòîò àáçàö áûë ñîçäàí ÷òîáû ïîêàçàòü êàê âûãëÿäèò êîíòåêñòíàÿ <a href="http://example.com/">ññûëêà</a> â àáçàöå.</li>
+        <li><a href="">Ссылка с пустым href</a></li>
+        <li><nofollow><a href="http://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+        <li><noindex><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
+        <li>Этот абзац был создан чтобы показать как выглядит контекстная <a href="http://example.com/">ссылка</a> в абзаце.</li>
         <li><a href="http://example.com"><img src="image.jpg" width="400" alt="flower"></a></li>
-        <li><img src="image.jpg" width="400" alt="flower" usemap="#map"><map name="map"><area shape="rect" coords="25,25,125,125" href="http://example.com" alt="Ïðÿìîóãîëüíèê" /><area shape="circle" coords="200,75,50" href="http://example.com" alt="Êðóã" /></map></li>
-        <li><a href="1.html">Îòíîñèòåëüíàÿ íà ñòðàíèöó â òåêóùåì êàòàëîãå</a></li>
-        <li><a href="about/1.html">Îòíîñèòåëüíàÿ íà ñòðàíèöó â êàòàëîãå about</a></li>
-        <li><a href="../1.html">Îòíîñèòåëüíàÿ íà ñòðàíèöó â êàòàëîãå óðîâíåì âûøå òåêóùåãî</a></li>
-        <li><a href="../../1.html">Îòíîñèòåëüíàÿ íà ñòðàíèöó â êàòàëîãå äâóìÿ óðîâíÿìè âûøå òåêóùåãî</a></li>
-        <li><a href="/">Ñîêðàùåííàÿ íà ãëàâíóþ</a></li>
-        <li><a href="/about">Ñîêðàùåííàÿ íà âíóòðåííþþ</a></li>
+        <li><img src="image.jpg" width="400" alt="flower" usemap="#map"><map name="map"><area shape="rect" coords="25,25,125,125" href="http://example.com" alt="Прямоугольник" /><area shape="circle" coords="200,75,50" href="http://example.com" alt="Круг" /></map></li>
+        <li><a href="1.html">Относительная на страницу в текущем каталоге</a></li>
+        <li><a href="about/1.html">Относительная на страницу в каталоге about</a></li>
+        <li><a href="../1.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="../../1.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+        <li><a href="/">Сокращенная на главную</a></li>
+        <li><a href="/about">Сокращенная на внутреннюю</a></li>
     </ol>
-    <h2 id="forma">ÔÎÐÌÀ</h2>
+    <h2 id="forma">ФОРМА</h2>
     <form action="/"
           method="POST">
         <label>
-            Ââåäèòå âàøå èìÿ:<br />
+            Введите ваше имя:<br />
             <input name="field-name"
-                   placeholder="Èìÿ" />
+                   placeholder="Имя" />
         </label><br />
         <label>
             Email:<br />
             <input name="field-email"
                    type="email"
-                   placeholder="Ââåäèòå âàøó ïî÷òó" />
+                   placeholder="Введите вашу почту" />
         </label><br />
         <label>
-            Âàøà äàòà ðîæäåíèÿ:<br />
+            Ваша дата рождения:<br />
             <input name="field-date"
                    value="2022-09-01"
                    type="date" />
         </label><br />
-        Âàø ïîë:<br />
+        Ваш пол:<br />
         <label>
             <input type="radio" checked="checked"
-                   name="pol" value="Çíà÷åíèå1" />
-            ì
+                   name="pol" value="Значение1" />
+            м
         </label>
         <label>
             <input type="radio"
-                   name="pol" value="Çíà÷åíèå2" />
-            æ
+                   name="pol" value="Значение2" />
+            ж
         </label><br />
-        Êîëëè÷åñòâî êîíå÷íîñòåé:<br />
+        Колличество конечностей:<br />
         <label>
             <input type="radio" checked="checked"
                    name="kon" />2
@@ -80,29 +86,29 @@
                    name="kon" />5
         </label><br />
 
-        Âàøè ñóïåðñïîñîáíîñòè:
+        Ваши суперспособности:
         <br />
         <select name="superpowers"
                 multiple="multiple">
-            <option value="Çíà÷åíèå1">áåññìåðòèå</option>
-            <option value="Çíà÷åíèå2" selected="selected">ïðîõîæäåíèå ñêâîçü ñòåíû</option>
-            <option value="Çíà÷åíèå3" selected="selected">ëåâèòàöèÿ</option>
+            <option value="Значение1">бессмертие</option>
+            <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+            <option value="Значение3" selected="selected">левитация</option>
         </select>
 
         <label>
         </label><br />
 
         <label>
-            Áèîãðàôèÿ:<br />
+            Биография:<br />
             <textarea name="field-name-2"></textarea>
         </label><br />
 
         <label>
-            Ñ êîíòðàêòîì îçíàêîìëåí(à)<input type="checkbox" name="check-1" />
+            С контрактом ознакомлен(а)<input type="checkbox" name="check-1" />
         </label>
         <br /><br>
 
-        <input type="submit" value="Îòïðàâèòü" />
+        <input type="submit" value="Отправить" />
     </form>
 
 </body>
