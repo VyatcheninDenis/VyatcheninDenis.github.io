@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1>Нумерованный список</h1>
+
+    <ol>
+        <li><a href="http://example.com/">Главная страница exapmle.com</a></li>
+        <li><a href="https://example.com/">Главная страница exapmle.com в протоколе https</a></li>
+        <li><a href="ftp://example.com/1.txt">Ftp без авторизации </a></li>
+        <li><a href="ftp://login:parol@example.com/1.txt">Ftp с авторизацией </a></li>
+        <li><a href="http://example.com/#about"> Ссылка на фрагмент страницы некоторого сайта</a></li>
+        <li><a href="#forma"> Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="http://exapmple.com?parametr1&parametr2">Cсылка с двумя параметрами</a></li>
+        <li></li>
+        <li><a> http://example.com </a></li>
+        <li><a href="">Ссылка с пустым href</a></li>
+        <li><nofollow><a href="http://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+        <li><noindex><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
+        <li>Этот абзац был создан чтобы показать как выглядит контекстная <a href="http://example.com/">ссылка</a> в абзаце.</li>
+        <li><a href="http://example.com"><img src="image.jpg" width="400" alt="flower"></a></li>
+        <li><img src="image.jpg" width="400" alt="flower" usemap="#map"><map name="map"><area shape="rect" coords="25,25,125,125" href="http://example.com" alt="Прямоугольник" /><area shape="circle" coords="200,75,50" href="http://example.com" alt="Круг" /></map></li>
+        <li><a href="1.html">Относительная на страницу в текущем каталоге</a></li>
+        <li><a href="about/1.html">Относительная на страницу в каталоге about</a></li>
+        <li><a href="../1.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="../../1.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+        <li><a href="/">Сокращенная на главную</a></li>
+        <li><a href="/about">Сокращенная на внутреннюю</a></li>
+    </ol>
+    <h2 id="forma">ФОРМА</h2>
+    <form action="/"
+          method="POST">
+        <label>
+            Введите ваше имя:<br />
+            <input name="field-name"
+                   placeholder="Имя" />
+        </label><br />
+        <label>
+            Email:<br />
+            <input name="field-email"
+                   type="email"
+                   placeholder="Введите вашу почту" />
+        </label><br />
+        <label>
+            Ваша дата рождения:<br />
+            <input name="field-date"
+                   value="2022-09-01"
+                   type="date" />
+        </label><br />
+        Ваш пол:<br />
+        <label>
+            <input type="radio" checked="checked"
+                   name="pol" value="Значение1" />
+            м
+        </label>
+        <label>
+            <input type="radio"
+                   name="pol" value="Значение2" />
+            ж
+        </label><br />
+        Колличество конечностей:<br />
+        <label>
+            <input type="radio" checked="checked"
+                   name="kon" />2
+        </label>
+        <label>
+            <input type="radio"
+                   name="kon" />3
+        </label>
+        <label>
+            <input type="radio"
+                   name="kon" />4
+        </label>
+        <label>
+            <input type="radio"
+                   name="kon" />5
+        </label><br />
+
+        Ваши суперспособности:
+        <br />
+        <select name="superpowers"
+                multiple="multiple">
+            <option value="Значение1">бессмертие</option>
+            <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+            <option value="Значение3" selected="selected">левитация</option>
+        </select>
+
+        <label>
+        </label><br />
+
+        <label>
+            Биография:<br />
+            <textarea name="field-name-2"></textarea>
+        </label><br />
+
+        <label>
+            С контрактом ознакомлен(а)<input type="checkbox" name="check-1" />
+        </label>
+        <br /><br>
+
+        <input type="submit" value="Отправить" />
+    </form>
+
+</body>
+
+</html> 
