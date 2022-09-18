@@ -1,13 +1,4 @@
-html {
-  width: auto;
-  height: auto;
-}
-h2 {
-  text-align: center;
-}
-li {
-  padding: 3px;
-}
+
 body {
   margin: 0 0;
   width: auto;
@@ -17,7 +8,6 @@ body {
 form {
   padding: 20px;
   margin-inline: 20%;
-  border: 1px solid black;
 }
 input:not([type~="submit"]) {
   outline: none;
