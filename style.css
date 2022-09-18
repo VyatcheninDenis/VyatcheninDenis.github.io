@@ -10,14 +10,12 @@ li {
 }
 body {
   margin: 0 0;
-  background-color: #707570;
-  font: 20px bold sans-serif;
   width: auto;
+  text-align: center;
   height: auto;
 }
 form {
   padding: 20px;
-  text-align: center;
   margin-inline: 20%;
   border: 1px solid black;
 }
