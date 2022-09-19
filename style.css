@@ -35,10 +35,10 @@ nav {
     padding: 10px;
     text-align: center;
 }
-#green {
+.green {
     background: lightgrey;
 }
-#yellow {
+.yellow {
     background: white;
 }
 .block {
