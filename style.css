@@ -74,3 +74,13 @@ footer {
     border-radius: 100px;
     border: 0.5mm solid rgba(0, 0, 0);
 }
+a {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+color: blue;
+}
+a:visited {
+color: blue;
+}
