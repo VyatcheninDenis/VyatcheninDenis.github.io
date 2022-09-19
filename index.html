@@ -1,116 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Мой классый сайт</title>
+    <title>ПОКЛОННИКИ ДЖЕЙСОНА СТЕЙТЕМА</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="width:100%; background-color:#ccc; padding: 10px; height:120px;">
-      <img style="float:left; margin:10px; width:100px; height:100px;" src="logo.png" alt="Описание картинки для скрин-ридеров и поисковиков" />
-      <div style="background-color:#ddd; padding:10px;">CSS</div>
-    </div>
+    <header>
+        <div id="shap">
+            <img class="round" src="logo.jpg" alt="Error">
+            <h1>ПОКЛОННИКИ ДЖЕЙСОНА СТЕЙТЕМА</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="#spisok">Список</a>   <a href="#table">Табрица</a>
+        <a href="#forma">Форма</a>
+    </nav>
+    <main id="block">
+        <h2 id="spisok">Нумерованный список</h2>
+        <ol>
+            <li><a href="http://example.com/">Главная страница exapmle.com</a></li>
+            <li><a href="https://example.com/">Главная страница exapmle.com в протоколе https</a></li>
+            <li><a href="ftp://example.com/1.txt">Ftp без авторизации </a></li>
+            <li><a href="ftp://login:parol@example.com/1.txt">Ftp с авторизацией </a></li>
+            <li><a href="http://example.com/#about"> Ссылка на фрагмент страницы некоторого сайта</a></li>
+            <li><a href="#forma"> Ссылка на фрагмент текущей страницы</a></li>
+            <li><a href="http://exapmple.com?parametr1=312312&parametr2=54522">Cсылка с двумя параметрами</a></li>
+            <li>
+                список ссылок основной навигации сайта с подписями title
+                <ul>
+                    <li><a href="index.html" title="главная">главная</a></li>
+                    <li><a href="contacts.html" title="контакты">контакты</a></li>
+                    <li><a href="about.html" title="about">about</a></li>
+                </ul>
+            </li>
+            <li><a> http://example.com </a></li>
+            <li><a href="">Ссылка с пустым href</a></li>
+            <li><nofollow><a href="http://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+            <li><noindex><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
+            <li>Этот абзац был создан чтобы показать как выглядит контекстная <a href="http://example.com/">ссылка</a> в абзаце.</li>
+            <li><a href="http://example.com"><img src="image2.jpg" width="400" alt="flower"></a></li>
+            <li><img src="kvkr.jpg" alt="кружочек и квадратик" style="width:300px;height:150px" usemap="#map"><map name="map"><area shape="rect" coords="10,10,140,140" href="https://vk.com/enfantsrichesmuhomor" alt="Прямоугольник" /><area shape="circle" coords="230,75,60" href="https://vk.com/sancha_sss" alt="Круг" /></map></li>
+            <li><a href="1.html">Относительная на страницу в текущем каталоге</a></li>
+            <li><a href="about/1.html">Относительная на страницу в каталоге about</a></li>
+            <li><a href="../1.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="../../1.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+            <li><a href="/">Сокращенная на главную</a></li>
+            <li><a href="/about">Сокращенная на внутреннюю</a></li>
+        </ol>
+    </main>
+    <section id="block">
+        <h3 id="table"> Таблица</h3>
+        <table>
+            <tbody>
+                <tr><th>Имя</th><th >Фамилия</th><th >Отчество</th></tr> 
+                <tr><td colspan="3" id="green">123</td></tr>
+                <tr><td id="yellow">1</td><td id="yellow">2</td><td id="yellow">3</td></tr>
+                <tr><td colspan="3" id="green">123</td></tr>
+                <tr><td id="yellow">1</td><td id="yellow">2</td><td id="yellow">3</td></tr>
+                <tr><td colspan="3" id="green">123</td></tr>
+            </tbody>
+        </table>
 
-
-    <h1>Нумерованный список</h1>
-    <ol>
-        <li><a href="http://example.com/">Главная страница exapmle.com</a></li>
-        <li><a href="https://example.com/">Главная страница exapmle.com в протоколе https</a></li>
-        <li><a href="ftp://example.com/1.txt">Ftp без авторизации </a></li>
-        <li><a href="ftp://login:parol@example.com/1.txt">Ftp с авторизацией </a></li>
-        <li><a href="http://example.com/#about"> Ссылка на фрагмент страницы некоторого сайта</a></li>
-        <li><a href="#forma"> Ссылка на фрагмент текущей страницы</a></li>
-        <li><a href="http://exapmple.com?parametr1=312312&parametr2=54522">Cсылка с двумя параметрами</a></li>
-        <li>список ссылок основной навигации сайта с подписями title
-  	<ul>
-  		<li><a href="index.html" title="главная">главная</a></li>
-  		<li><a href="contacts.html" title="контакты">контакты</a></li>
-  		<li><a href="about.html" title="about">about</a></li>
-  	</ul>
-        </li>
-        <li><a> http://example.com </a></li>
-        <li><a href="">Ссылка с пустым href</a></li>
-        <li><nofollow><a href="http://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
-        <li><noindex><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками</a></noindex></li>
-        <li>Этот абзац был создан чтобы показать как выглядит контекстная <a href="http://example.com/">ссылка</a> в абзаце.</li>
-        <li><a href="http://example.com"><img src="image.jpg" width="400" alt="flower"></a></li>
-        <li><img src="image.jpg" width="400" alt="flower" usemap="#map"><map name="map"><area shape="rect" coords="25,25,125,125" href="https://vk.com/enfantsrichesmuhomor" alt="Прямоугольник" /><area shape="circle" coords="200,75,50" href="https://vk.com/sancha_sss" alt="Круг" /></map></li>
-        <li><a href="1.html">Относительная на страницу в текущем каталоге</a></li>
-        <li><a href="about/1.html">Относительная на страницу в каталоге about</a></li>
-        <li><a href="../1.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
-        <li><a href="../../1.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
-        <li><a href="/">Сокращенная на главную</a></li>
-        <li><a href="/about">Сокращенная на внутреннюю</a></li>
-    </ol>
-    <h2 id="forma">ФОРМА</h2>
-    <form action="/"
-          method="POST">
-        <label>
-            Введите ваше имя:<br />
-            <input name="field-name"
-                   placeholder="Имя" />
-        </label><br />
-        <label>
-            Email:<br />
-            <input name="field-email"
-                   type="email"
-                   placeholder="Введите вашу почту" />
-        </label><br />
-        <label>
-            Ваша дата рождения:<br />
-            <input name="field-date"
-                   value="2022-09-01"
-                   type="date" />
-        </label><br />
-        Ваш пол:<br />
-        <label>
-            <input type="radio" checked="checked"
-                   name="pol" value="Значение1" />
-            м
-        </label>
-        <label>
-            <input type="radio"
-                   name="pol" value="Значение2" />
-            ж
-        </label><br />
-        Колличество конечностей:<br />
-        <label>
-            <input type="radio" checked="checked"
-                   name="kon" />2
-        </label>
-        <label>
-            <input type="radio"
-                   name="kon" />3
-        </label>
-        <label>
-            <input type="radio"
-                   name="kon" />4
-        </label>
-        <label>
-            <input type="radio"
-                   name="kon" />5
-        </label><br />
-        Ваши суперспособности:
-        <br />
-        <select name="superpowers"
-                multiple="multiple">
-            <option value="Значение1">бессмертие</option>
-            <option value="Значение2" selected="selected">прохождение сквозь стены</option>
-            <option value="Значение3" selected="selected">левитация</option>
-        </select>
-        <label>
-        </label><br />
-        <label>
-            Биография:<br />
-            <textarea name="field-name-2"></textarea>
-        </label><br />
-        <label>
-            С контрактом ознакомлен(а)<input type="checkbox" name="check-1" />
-        </label>
-        <br /><br>
-        <input type="submit" value="Отправить" />
-    </form>
-    <footer>
-  <a id="footerLink" href="https://github.com/Supermegatiger">(c) All rights reserved (false)</a>
-</footer>
+    </section>
+    <section id="block">
+        <h3 id="forma">ФОРМА</h3>
+        <form action="/"
+              method="POST">
+            <label>
+                Введите ваше имя:<br />
+                <input name="field-name"
+                       placeholder="Имя" />
+            </label><br />
+            <label>
+                Email:<br />
+                <input name="field-email"
+                       type="email"
+                       placeholder="Введите вашу почту" />
+            </label><br />
+            <label>
+                Ваша дата рождения:<br />
+                <input name="field-date"
+                       value="2022-09-01"
+                       type="date" />
+            </label><br />
+            Ваш пол:<br />
+            <label>
+                <input type="radio" checked="checked"
+                       name="pol" value="Значение1" />
+                м
+            </label>
+            <label>
+                <input type="radio"
+                       name="pol" value="Значение2" />
+                ж
+            </label><br />
+            Колличество конечностей:<br />
+            <label>
+                <input type="radio" checked="checked"
+                       name="kon" />2
+            </label>
+            <label>
+                <input type="radio"
+                       name="kon" />3
+            </label>
+            <label>
+                <input type="radio"
+                       name="kon" />4
+            </label>
+            <label>
+                <input type="radio"
+                       name="kon" />5
+            </label><br />
+            Ваши суперспособности:
+            <br />
+            <select name="superpowers"
+                    multiple="multiple">
+                <option value="Значение1">бессмертие</option>
+                <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+                <option value="Значение3" selected="selected">левитация</option>
+            </select>
+            <label>
+            </label><br />
+            <label>
+                Биография:<br />
+                <textarea name="field-name-2"></textarea>
+            </label><br />
+            <label>
+                С контрактом ознакомлен(а)<input type="checkbox" name="check-1" />
+            </label>
+            <br /><br>
+            <input type="submit" value="Отправить" />
+        </form>
+    </section>
+    <footer id="podval">
+        <div>
+                 (с)Джейстон Стейтем
+        </div>
+    </footer>
 </body>
 </html> 
