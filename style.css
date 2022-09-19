@@ -41,7 +41,7 @@ nav {
 #yellow {
     background: white;
 }
-#block {
+.block {
     max-width: 960px;
     background-color: gray;
     margin: 0 auto;
