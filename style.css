@@ -3,11 +3,12 @@ body {
     background-color:lightgray;
 }
 header {
+    box-shadow: 0 0 7px #666;
     width: 100%;
     background-color: gray;
     padding: 10px;
     height: 120px;
-    border-bottom: 1mm solid rgba(249, 105, 14);
+    border-bottom: 1mm solid black;
 }
 header img {
         float: left;
@@ -31,7 +32,7 @@ h1 {
 nav {
     box-shadow: 0 0 7px #666;
     border-radius: 20px;
-    border: 1mm solid rgba(249, 105, 14);
+    border: 1mm solid black;
     max-width: 960px;
     background-color: gray;
     margin: 0 auto;
@@ -48,7 +49,7 @@ nav {
 .block {
     box-shadow: 0 0 7px #666;
     border-radius: 20px;
-    border: 1mm solid rgba(249, 105, 14);
+    border: 1mm solid black;
     max-width: 960px;
     background-color: gray;
     margin: 0 auto;
@@ -56,7 +57,8 @@ nav {
     padding: 10px;
 }
 footer {
-    border-top: 1mm solid rgba(249, 105, 14);
+    box-shadow: 0 0 7px #666;
+    border-top: 1mm solid black;
     width: 100%;
     background-color: gray;
     height: 120px;
@@ -68,5 +70,7 @@ footer {
     padding-left:20px;
 }
 .round {
+    box-shadow: 0 0 7px #666;
     border-radius: 100px;
+    border: 0.5mm solid rgba(0, 0, 0);
 }
