@@ -42,7 +42,12 @@ nav {
     text-align: center;
 }
 nav a{
-    width: -webkit-fill-available;
+  text-decoration: none;
+  color: white;
+  width: -webkit-fill-available;
+  display: block;
+  text-align: center;
+  padding: 20px;
 }
 .green {
     background: lightgrey;
