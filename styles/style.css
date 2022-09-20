@@ -1,0 +1,114 @@
+
+body {
+  background-image: url(../images/pattern.jpg);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 0;
+    background-color:lightgray;
+}
+header {
+    background: url(../images/pattern2.jpg)
+    box-shadow: 0 0 7px #666;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    height: 120px;
+}
+header img {
+        float: left;
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+#shap {
+    max-width: 960px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+
+nav{
+  max-width: 980px;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  filter: drop-shadow(0px 30px 40px rgb(0, 0, 0));
+  background-color: rgba(29, 29, 29, 0.842);
+  border-top: 1px solid rgb(41, 41, 41);
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-color: white;
+  width: -webkit-fill-available;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+nav a:hover{
+  background-color: rgba(30,30,30);
+  transition: 0.4s ease;
+}
+.green {
+    background: lightgrey;
+}
+.yellow {
+    background: grey;
+}
+.block {
+	  padding: 4px;
+	  margin:0 auto;
+	  background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    max-width: 960px;
+    margin-top: 20px;
+    padding: 10px;
+    align-self: center;
+}
+footer {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    height: 120px;
+    margin-top: 20px;
+}
+#podval{
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+}
+
+ol a {
+text-decoration: none;
+color:deeppink;
+}
+ol a:hover {
+text-decoration: underline;
+color:deeppink;
+}
+ol a:visited {
+color:deeppink;
+}
+table{
+  display: inline-block;
+  border: 1mm solid white;
+}
+ol{
+display: inline-block;
+text-align: left;
+}
+  form {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    border: 1mm solid white;
+    margin-bottom: 50px;
+    width: fit-content;
+  }
