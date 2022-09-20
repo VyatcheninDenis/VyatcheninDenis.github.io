@@ -12,13 +12,13 @@ header {
     width: 100%;
     background-color: rgba(0,0,0,0.7);
     padding: 10px;
-    height: 120px;
+    height: 140px;
 }
 header img {
         float: left;
         margin: 10px;
         width: 100px;
-        height: 180px;
+        height: 120px;
 }
 
 h1 {
