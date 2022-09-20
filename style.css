@@ -30,6 +30,7 @@ h1 {
 }
 
 nav {
+    display: flex;
     box-shadow: 0 0 7px #666;
     border-radius: 20px;
     border: 1mm solid black;
