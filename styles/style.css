@@ -112,7 +112,7 @@ text-align: left;
     margin-bottom: 50px;
     width: fit-content;
   }
-  @media screen and (max-width:1000px){
+  @media screen and (max-width:700px){
 
 body{
   display: flex;
