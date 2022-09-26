@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Vin Slab Pro Light";
   src: url(../fonts/VinSlabPro-Light_0.ttf);
@@ -18,7 +19,6 @@ header {
     box-shadow: 0 0 7px #666;
     width: 100%;
     background-color: rgba(0,0,0,0.7);
-    padding: 10px;
     height: 140px;
 }
 header img {
@@ -79,7 +79,6 @@ nav a:hover{
     color: white;
     text-align: center;
     margin-top: 20px;
-    padding: 10px;
     align-self: center;
 }
 .links img{
@@ -94,7 +93,6 @@ nav a:hover{
   color: white;
   text-align: center;
   margin-top: 20px;
-  padding: 10px;
   align-self: center;
 }
 .form{
@@ -106,7 +104,6 @@ nav a:hover{
   color: white;
   text-align: center;
   margin-top: 20px;
-  padding: 10px;
   align-self: center;
 }
 footer {
@@ -120,7 +117,7 @@ footer {
 #podval{
     display:flex;
     align-items:center;
-    padding-left:20px;
+    padding-left:0px;
 }
 
 ol a {
@@ -176,7 +173,7 @@ body{
 
 #podval{
   order:6;
-  padding-left: 0px;
+  padding-left: 20px;
 }
 header{
   padding: 10px;
