@@ -9,7 +9,7 @@ body {
   padding: 0px;
   background-image: url(../images/pattern.jpg);
   font-family: "Vin Slab Pro Light";
-    margin: 0 auto;
+    margin: auto;
     background-color:lightgray;
 
 }
@@ -58,6 +58,7 @@ nav a{
   width: -webkit-fill-available;
   display: block;
   text-align: center;
+  padding: 20px;
 }
 nav a:hover{
   background-color: rgba(30,30,30);
@@ -152,20 +153,22 @@ body{
   display: block;
 }
 .nav {
-  max-width: 960px;
+  max-width: 980px;
   flex-direction: row;
   order:2;
-  padding: 10px;
 }
 .form{
+  padding: 10px;
   max-width: 960px;
   order:5;
 }
 .links{
+  padding: 10px;
   max-width: 960px;
   order:3;
 }
 .table{
+  padding: 10px;
   max-width: 960px;
   order:4;
 }
