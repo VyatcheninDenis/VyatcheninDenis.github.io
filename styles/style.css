@@ -58,7 +58,6 @@ nav a{
   width: -webkit-fill-available;
   display: block;
   text-align: center;
-  padding: 20px;
 }
 nav a:hover{
   background-color: rgba(30,30,30);
