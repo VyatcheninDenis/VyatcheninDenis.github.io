@@ -1,0 +1,139 @@
+
+@font-face {
+  font-family: "Vin Slab Pro Light";
+  src: url(../fonts/VinSlabPro-Light_0.ttf);
+}
+html {
+    width: auto;
+    height: auto;
+  }
+  *::selection{
+    background-color: rgb(78, 118, 250);
+  }
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  ol{
+    color: white;
+  }
+  li {
+    padding: 3px;
+  }
+  li a{
+    text-decoration: none;
+  }
+  body {
+
+    background-color:lightgray;
+    font-family: "Vin Slab Pro Light";
+    margin: 0 0;
+    width: auto;
+    height: auto;
+    background-image: url(../images/pattern.jpg);
+    display: flex;
+    flex-direction: column;
+  }
+  header img {
+        float: left;
+        margin: 10px;
+        width: 100px;
+        height: 130px;
+}
+  form {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+  footer, header {
+    background-color: rgba(0,0,0,0.7);
+    height: 150px;
+    display: flex;
+    border-left:0px;
+    border-right:0px;
+
+  }
+  footer {
+    text-align: left;
+    border-borrom:0px;
+  }
+  header {
+    margin-bottom: 0;
+    border-top:0px;
+  }
+  nav{
+    background-color: rgba(0,0,0,0.7);
+    border-top: 1px solid rgb(41, 41, 41);
+  
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+  nav a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  nav a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(30,30,30);
+    transition: 0.4s ease;
+  }
+  nav a:visited{
+    color: white;
+  }
+  table{
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .green {
+    background: grey;
+}
+.yellow {
+    background: lightgray;
+}
+  .items-content{
+    background-color: rgba(0,0,0,0.7);
+      background-image: url(back.jpg);
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  ol a {
+text-decoration: none;
+color:deeppink;
+}
+ol a:hover {
+text-decoration: underline;
+color:deeppink;
+}
+ol a:visited {
+color:deeppink;
+}
+  footer p {
+    text-align-left;
+    align-self: left;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  a:visited {
+    color: blue;
+  }
+p {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
